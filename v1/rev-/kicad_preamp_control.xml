@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/zleffke/github/zleffke/kicad/kicad_preamp_control/v1/rev-/kicad_preamp_control.sch</source>
+    <date>Tue 29 Dec 2020 08:32:07 PM EST</date>
+    <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Preamplifier Control, Version 1</title>
+        <company>Virginia Tech Ground Station and Amateur Radio</company>
+        <rev>-</rev>
+        <date>2020-12-19</date>
+        <source>kicad_preamp_control.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="creativecommons.org/licenses/by/4.0/"/>
+        <comment number="3" value="License: CC BY 4.0"/>
+        <comment number="4" value="Author: Zach Leffke, KJ4QLP"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDDBBEA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.01uF</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDDC195</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>13k</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDE00BA</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBTA06LT1G</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MMBTA05LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">http://www.onsemi.com/pub/Collateral/MMBTA05LT1-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/MMBTA06LT1G/MMBTA06LT1GOSCT-ND/1139832</field>
+        <field name="Description">TRANS NPN 80V 0.5A SOT23</field>
+        <field name="Digi-Key_PN">MMBTA06LT1GOSCT-ND</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="MPN">MMBTA06LT1G</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-Bipolar-BJT-Single" part="MMBTA06LT1G" description="TRANS NPN 80V 0.5A SOT23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDE0CA3</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDE4067</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>6k</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDE4509</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2k</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDE4AF6</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BAS16W</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAS16W" description="100V, 0.175A, High-speed Switching Diode, SOT-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDE6073</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>20k</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDE849D</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2.5k</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDE90C3</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>BAS16W</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAS16W" description="100V, 0.175A, High-speed Switching Diode, SOT-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDEB4D5</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>RX_~EN</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDF4EB0</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>~TERM</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDF8ACD</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.01uF</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDFB53C</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MC78M12ACDTRKG</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L7812" description="Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE03665</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE2D67E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE2E891</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>US1M</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <libsource lib="Diode" part="US1M" description="1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE37236</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>US1M</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <libsource lib="Diode" part="US1M" description="1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE43382</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>US1M</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <libsource lib="Diode" part="US1M" description="1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE49EE2</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE620C2</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.01uF</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE620C8</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>13k</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE620E0</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>MMBTA06LT1G</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MMBTA05LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">http://www.onsemi.com/pub/Collateral/MMBTA05LT1-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/MMBTA06LT1G/MMBTA06LT1GOSCT-ND/1139832</field>
+        <field name="Description">TRANS NPN 80V 0.5A SOT23</field>
+        <field name="Digi-Key_PN">MMBTA06LT1GOSCT-ND</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="MPN">MMBTA06LT1G</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-Bipolar-BJT-Single" part="MMBTA06LT1G" description="TRANS NPN 80V 0.5A SOT23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE620EF</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE620F5</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>6k</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE620FB</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>2k</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE62101</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>BAS16W</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAS16W" description="100V, 0.175A, High-speed Switching Diode, SOT-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE62107</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>20k</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE6211B</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2.5k</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE62121</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>BAS16W</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf</datasheet>
+      <libsource lib="Diode" part="BAS16W" description="100V, 0.175A, High-speed Switching Diode, SOT-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE62131</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>RX_~EN</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE62144</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.01uF</value>
+      <footprint>digikey-footprints:0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE62152</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>US1M</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds16008.pdf</datasheet>
+      <libsource lib="Diode" part="US1M" description="1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE641E8</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>+28V</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEF20FE</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>~PTT</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEFF604</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>~EN</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF07C8C</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>~TERM</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF07FB5</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>#4</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE0475</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>#4</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEE3270</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>#4</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEEB96C</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>#4</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEEBD79</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRLML9301</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml9301pbf.pdf?fileId=5546d462533600a401535668e5e42640</datasheet>
+      <libsource lib="Transistor_FET" part="IRLML9301" description="-3.6A Id, -30V Vds, P-Channel HEXFET Power MOSFET, 64mOhm Rds, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDFF73C</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IRLML9301</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml9301pbf.pdf?fileId=5546d462533600a401535668e5e42640</datasheet>
+      <libsource lib="Transistor_FET" part="IRLML9301" description="-3.6A Id, -30V Vds, P-Channel HEXFET Power MOSFET, 64mOhm Rds, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE0140C</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>LNA_12V</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE06BC2</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>SPST_REL</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE07E05</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>XFER</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE08992</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE0B056</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE0A607</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE09C5E</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_4.0x4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEEBDE0</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAS16W">
+      <description>100V, 0.175A, High-speed Switching Diode, SOT-323</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf</docs>
+      <footprints>
+        <fp>SOT?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAS16W</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-323_SC-70</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MRA4003T3G">
+      <aliases>
+        <alias>MRA4004T3G</alias>
+        <alias>MRA4005T3G</alias>
+        <alias>MRA4006T3G</alias>
+        <alias>MRA4007T3G</alias>
+        <alias>NRVA4003T3G</alias>
+        <alias>NRVA4004T3G</alias>
+        <alias>NRVA4005T3G</alias>
+        <alias>NRVA4006T3G</alias>
+        <alias>NRVA4007T3G</alias>
+        <alias>US1A</alias>
+        <alias>US1B</alias>
+        <alias>US1D</alias>
+        <alias>US1G</alias>
+        <alias>US1J</alias>
+        <alias>US1K</alias>
+        <alias>US1M</alias>
+        <alias>US2AA</alias>
+        <alias>US2BA</alias>
+        <alias>US2DA</alias>
+        <alias>US2FA</alias>
+        <alias>US2GA</alias>
+        <alias>US2JA</alias>
+        <alias>US2KA</alias>
+        <alias>US2MA</alias>
+      </aliases>
+      <description>300V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MRA4003T3G</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="TP0610T">
+      <aliases>
+        <alias>VP0610T</alias>
+        <alias>BSS84</alias>
+        <alias>NTR2101P</alias>
+        <alias>BSS83P</alias>
+        <alias>Si2319CDS</alias>
+        <alias>IRLML6402</alias>
+        <alias>DMG2301L</alias>
+        <alias>AO3401A</alias>
+        <alias>IRLML9301</alias>
+        <alias>IRLML5203</alias>
+        <alias>Si2371EDS</alias>
+        <alias>TSM2301ACX</alias>
+      </aliases>
+      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TP0610T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Transistors-Bipolar-BJT-Single" part="MMBTA06LT1G">
+      <description>TRANS NPN 80V 0.5A SOT23</description>
+      <docs>http://www.onsemi.com/pub/Collateral/MMBTA05LT1-D.PDF</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBTA06LT1G</field>
+        <field name="Footprint">digikey-footprints:SOT-23-3</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/MMBTA05LT1-D.PDF</field>
+        <field name="Digi-Key_PN">MMBTA06LT1GOSCT-ND</field>
+        <field name="MPN">MMBTA06LT1G</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="DK_Datasheet_Link">http://www.onsemi.com/pub/Collateral/MMBTA05LT1-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/MMBTA06LT1G/MMBTA06LT1GOSCT-ND/1139832</field>
+        <field name="Description">TRANS NPN 80V 0.5A SOT23</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/library/Jumper.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="dk_Transistors-Bipolar-BJT-Single">
+      <uri>/home/zleffke/kicad/digikey-kicad-library/digikey-symbols/dk_Transistors-Bipolar-BJT-Single.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D7-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="2" name="Net-(Q4-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C5" pin="2"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="TP11" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="JP3" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="6" name="Net-(JP2-Pad1)">
+      <node ref="JP2" pin="1"/>
+      <node ref="JP3" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="D8" pin="3"/>
+    </net>
+    <net code="8" name="Net-(Q3-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="9" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="10" name="+28V">
+      <node ref="R9" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="12" name="RX_~PTT">
+      <node ref="D1" pin="3"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="13" name="RX_~EN">
+      <node ref="JP1" pin="3"/>
+      <node ref="TP4" pin="1"/>
+    </net>
+    <net code="14" name="~TERM">
+      <node ref="JP2" pin="2"/>
+      <node ref="TP5" pin="1"/>
+    </net>
+    <net code="15" name="/TERM_28V">
+      <node ref="Q3" pin="3"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="TP10" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="17" name="Net-(C5-Pad1)">
+      <node ref="JP2" pin="3"/>
+      <node ref="D7" pin="3"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="18" name="Net-(D2-Pad1)">
+      <node ref="Q2" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C1-Pad1)">
+      <node ref="D2" pin="3"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(Q1-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="23" name="Net-(Q2-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="24" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="25" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="26" name="/LNA_12V">
+      <node ref="U1" pin="3"/>
+      <node ref="TP6" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="27" name="/RX_28V">
+      <node ref="Q1" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="TP8" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+  </nets>
+</export>
